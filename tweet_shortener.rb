@@ -16,7 +16,7 @@ def word_substituter(tweet)
       else
         return "This tweet is as short as it will get!"
     }
-#binding.pry
+binding.pry
     #Make sure to convert the shortened tweet back to a string!
 
 end
