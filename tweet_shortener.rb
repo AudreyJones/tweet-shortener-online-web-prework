@@ -15,7 +15,7 @@ binding.pry
         #replace long word(key) with shortened word(value)
       else
         return "This tweet is as short as it will get!"
-    
+
 
     #Make sure to convert the shortened tweet back to a string!
 
