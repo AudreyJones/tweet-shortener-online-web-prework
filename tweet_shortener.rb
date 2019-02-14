@@ -10,8 +10,11 @@ def word_substituter(tweet)
     split_tweet = tweet.split(" ")
 # binding.pry
     #now that the tweet is an array, iterate over it to compare the dictionary's original words (keys) to if they match any of the words in the tweets!
-    split_tweet.each {|words| dictionary.keys.include?(words)}
-binding.pry
+    split_tweet.each {|words| dictionary.keys.include?(words)
+      if 
+
+    }
+#binding.pry
     #Make sure to convert the shortened tweet back to a string!
 
 end
